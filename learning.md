@@ -5,6 +5,6 @@
 3.  SSH key
     - SSH key generate
     - SSH public key add to gitHub
-4.  Git workflow
-5.  Merge conflick
+4.  Git workflow (add-commit-push)
+5.  Merge conflickt
 6.  How to resolve merge conflict
