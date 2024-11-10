@@ -12,4 +12,14 @@
     - fork => 3rd party repo => own github => git clone
 8.  git page
 9.  github issues + gitignore + README.md
+10. git merge vs git rebase
+11. GitHub actions (CI/CD)
+12. Advanced
+
+    - gitHub Actions (CI/CD)
+    - Git Flow /GitHub Flow, Trunk Basked Developnemt
+    - Rewriting history: git reflog, git filter-branch, git cherry-pick
+    - Performance and Optimization: Shallow clones, Partial clones
+    - Undo changes
+
     remove git repository: rm -rf .git
