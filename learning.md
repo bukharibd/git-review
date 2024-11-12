@@ -21,8 +21,8 @@
     - Rewriting history: git reflog, git filter-branch, git cherry-pick
     - Performance and Optimization: Shallow clones, Partial clones
     - Undo changes (Working directory => staging area => local ripository => remote repository)
-      - discard in the woring derectory (git checkout -- <filename.tex / .>)
-      - unstaging (git reset HEAD . / <filename.tex / .>)
-      - git reset --hard HEAD => remove from working direcotry and staged item.
+      - git checkout -- <filename.tex / .> Undo from unstaging
+      - git reset HEAD . / <filename.tex / .> Undo from staging area
+      - git reset --hard HEAD => Undo from unstaging && Undo from staging area
 
     remove git repository: rm -rf .git
