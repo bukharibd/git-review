@@ -16,14 +16,14 @@
 11. GitHub actions (CI/CD)
 12. Advanced
 
-    - gitHub Actions (CI/CD)
-    - Git Flow /GitHub Flow, Trunk Basked Developnemt
-    - Rewriting history: git reflog, git filter-branch, git cherry-pick
-    - Performance and Optimization: Shallow clones, Partial clones
-    - Undo changes (Working directory => staging area => local ripository => remote repository)
-      - git checkout -- <filename.tex / .> Undo from unstaging
-      - git reset HEAD . / <filename.tex / .> Undo from staging area
-      - git reset --hard HEAD => Undo from unstaging && Undo from staging area
-      - git commit --amend => Change commit messege
+        - gitHub Actions (CI/CD)
+        - Git Flow /GitHub Flow, Trunk Basked Developnemt
+        - Rewriting history: git reflog, git filter-branch, git cherry-pick
+        - Performance and Optimization: Shallow clones, Partial clones
+        - Undo changes (Working directory => staging area => local ripository => remote repository)
+          - git checkout -- <filename.tex / .> Undo from unstaging
+          - git reset HEAD . / <filename.tex / .> Undo from staging area
+          - git reset --hard HEAD => Undo from unstaging && Undo from staging area
+          - git commit --amend => Change commit messege
 
-    remove git repository: rm -rf .git
+        remove git repository: rm -rf .git
