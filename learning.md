@@ -22,5 +22,6 @@
     - Performance and Optimization: Shallow clones, Partial clones
     - Undo changes (Working directory => staging area => local ripository => remote repository)
       - discard in the woring derectory (git checkout -- <filename.tex / .>)
+      - unstaging (git reset . / <filename.tex / .>)
 
     remove git repository: rm -rf .git
