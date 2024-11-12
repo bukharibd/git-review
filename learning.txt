@@ -29,5 +29,3 @@
               - git revert commitID => undo commit
               - git revert commitID + git push => reverting a pushed commit
               - git reset --hard commitID + git push --force => reverting a pushed commit
-
-            remove git repository: rm -rf .git
