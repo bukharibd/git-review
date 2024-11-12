@@ -24,5 +24,6 @@
       - git checkout -- <filename.tex / .> Undo from unstaging
       - git reset HEAD . / <filename.tex / .> Undo from staging area
       - git reset --hard HEAD => Undo from unstaging && Undo from staging area
+      - git commit --amend => Change commit messege
 
     remove git repository: rm -rf .git
