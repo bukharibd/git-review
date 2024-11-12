@@ -20,6 +20,7 @@
     - Git Flow /GitHub Flow, Trunk Basked Developnemt
     - Rewriting history: git reflog, git filter-branch, git cherry-pick
     - Performance and Optimization: Shallow clones, Partial clones
-    - Undo changes
+    - Undo changes (Working directory => staging area => local ripository => remote repository)
+      - discard in the woring derectory (git checkout -- <filename.tex / .>)
 
     remove git repository: rm -rf .git
