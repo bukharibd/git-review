@@ -23,6 +23,6 @@
     - Undo changes (Working directory => staging area => local ripository => remote repository)
       - discard in the woring derectory (git checkout -- <filename.tex / .>)
       - unstaging (git reset HEAD . / <filename.tex / .>)
-      - git reset hard HEAD => remove from working direcotry and staged item.
+      - git reset --hard HEAD => remove from working direcotry and staged item.
 
     remove git repository: rm -rf .git
